@@ -1,0 +1,21 @@
+[project]
+name = "homework_5"
+version = "0.1.0"
+description = "homework_5"
+authors = [
+    {name = "Kanat", email = "kanat.kozhaniyazov@gmail.com"},
+]
+dependencies = [
+    "pip>=24.2",
+    "ruff>=0.6.9",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+distribution = true
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
